@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EEE429A28E36F4A0047B01D /* Blizzard_SwiftUI_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE429928E36F4A0047B01D /* Blizzard_SwiftUI_UIApp.swift */; };
+		0EEE429C28E36F4A0047B01D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE429B28E36F4A0047B01D /* ContentView.swift */; };
+		0EEE429E28E36F4D0047B01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEE429D28E36F4D0047B01D /* Assets.xcassets */; };
+		0EEE42A128E36F4D0047B01D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEE42A028E36F4D0047B01D /* Preview Assets.xcassets */; };
+		0EEE42AB28E36F4D0047B01D /* Blizzard_SwiftUI_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE42AA28E36F4D0047B01D /* Blizzard_SwiftUI_UITests.swift */; };
+		0EEE42B528E36F4E0047B01D /* Blizzard_SwiftUI_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE42B428E36F4E0047B01D /* Blizzard_SwiftUI_UIUITests.swift */; };
+		0EEE42B728E36F4E0047B01D /* Blizzard_SwiftUI_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE42B628E36F4E0047B01D /* Blizzard_SwiftUI_UIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EEE42A728E36F4D0047B01D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEE428E28E36F4A0047B01D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EEE429528E36F4A0047B01D;
+			remoteInfo = "Blizzard-SwiftUI-UI";
+		};
+		0EEE42B128E36F4E0047B01D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEE428E28E36F4A0047B01D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EEE429528E36F4A0047B01D;
+			remoteInfo = "Blizzard-SwiftUI-UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EEE429628E36F4A0047B01D /* Blizzard-SwiftUI-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blizzard-SwiftUI-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEE429928E36F4A0047B01D /* Blizzard_SwiftUI_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blizzard_SwiftUI_UIApp.swift; sourceTree = "<group>"; };
+		0EEE429B28E36F4A0047B01D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0EEE429D28E36F4D0047B01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EEE42A028E36F4D0047B01D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EEE42A628E36F4D0047B01D /* Blizzard-SwiftUI-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blizzard-SwiftUI-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEE42AA28E36F4D0047B01D /* Blizzard_SwiftUI_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blizzard_SwiftUI_UITests.swift; sourceTree = "<group>"; };
+		0EEE42B028E36F4E0047B01D /* Blizzard-SwiftUI-UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blizzard-SwiftUI-UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEE42B428E36F4E0047B01D /* Blizzard_SwiftUI_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blizzard_SwiftUI_UIUITests.swift; sourceTree = "<group>"; };
+		0EEE42B628E36F4E0047B01D /* Blizzard_SwiftUI_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blizzard_SwiftUI_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EEE429328E36F4A0047B01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE42A328E36F4D0047B01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE42AD28E36F4E0047B01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EEE428D28E36F4A0047B01D = {
+			isa = PBXGroup;
+			children = (
+				0EEE429828E36F4A0047B01D /* Blizzard-SwiftUI-UI */,
+				0EEE42A928E36F4D0047B01D /* Blizzard-SwiftUI-UITests */,
+				0EEE42B328E36F4E0047B01D /* Blizzard-SwiftUI-UIUITests */,
+				0EEE429728E36F4A0047B01D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EEE429728E36F4A0047B01D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EEE429628E36F4A0047B01D /* Blizzard-SwiftUI-UI.app */,
+				0EEE42A628E36F4D0047B01D /* Blizzard-SwiftUI-UITests.xctest */,
+				0EEE42B028E36F4E0047B01D /* Blizzard-SwiftUI-UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EEE429828E36F4A0047B01D /* Blizzard-SwiftUI-UI */ = {
+			isa = PBXGroup;
+			children = (
+				0EEE429928E36F4A0047B01D /* Blizzard_SwiftUI_UIApp.swift */,
+				0EEE429B28E36F4A0047B01D /* ContentView.swift */,
+				0EEE429D28E36F4D0047B01D /* Assets.xcassets */,
+				0EEE429F28E36F4D0047B01D /* Preview Content */,
+			);
+			path = "Blizzard-SwiftUI-UI";
+			sourceTree = "<group>";
+		};
+		0EEE429F28E36F4D0047B01D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0EEE42A028E36F4D0047B01D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EEE42A928E36F4D0047B01D /* Blizzard-SwiftUI-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EEE42AA28E36F4D0047B01D /* Blizzard_SwiftUI_UITests.swift */,
+			);
+			path = "Blizzard-SwiftUI-UITests";
+			sourceTree = "<group>";
+		};
+		0EEE42B328E36F4E0047B01D /* Blizzard-SwiftUI-UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EEE42B428E36F4E0047B01D /* Blizzard_SwiftUI_UIUITests.swift */,
+				0EEE42B628E36F4E0047B01D /* Blizzard_SwiftUI_UIUITestsLaunchTests.swift */,
+			);
+			path = "Blizzard-SwiftUI-UIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EEE429528E36F4A0047B01D /* Blizzard-SwiftUI-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEE42BA28E36F4E0047B01D /* Build configuration list for PBXNativeTarget "Blizzard-SwiftUI-UI" */;
+			buildPhases = (
+				0EEE429228E36F4A0047B01D /* Sources */,
+				0EEE429328E36F4A0047B01D /* Frameworks */,
+				0EEE429428E36F4A0047B01D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blizzard-SwiftUI-UI";
+			productName = "Blizzard-SwiftUI-UI";
+			productReference = 0EEE429628E36F4A0047B01D /* Blizzard-SwiftUI-UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EEE42A528E36F4D0047B01D /* Blizzard-SwiftUI-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEE42BD28E36F4E0047B01D /* Build configuration list for PBXNativeTarget "Blizzard-SwiftUI-UITests" */;
+			buildPhases = (
+				0EEE42A228E36F4D0047B01D /* Sources */,
+				0EEE42A328E36F4D0047B01D /* Frameworks */,
+				0EEE42A428E36F4D0047B01D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EEE42A828E36F4D0047B01D /* PBXTargetDependency */,
+			);
+			name = "Blizzard-SwiftUI-UITests";
+			productName = "Blizzard-SwiftUI-UITests";
+			productReference = 0EEE42A628E36F4D0047B01D /* Blizzard-SwiftUI-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EEE42AF28E36F4E0047B01D /* Blizzard-SwiftUI-UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEE42C028E36F4E0047B01D /* Build configuration list for PBXNativeTarget "Blizzard-SwiftUI-UIUITests" */;
+			buildPhases = (
+				0EEE42AC28E36F4E0047B01D /* Sources */,
+				0EEE42AD28E36F4E0047B01D /* Frameworks */,
+				0EEE42AE28E36F4E0047B01D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EEE42B228E36F4E0047B01D /* PBXTargetDependency */,
+			);
+			name = "Blizzard-SwiftUI-UIUITests";
+			productName = "Blizzard-SwiftUI-UIUITests";
+			productReference = 0EEE42B028E36F4E0047B01D /* Blizzard-SwiftUI-UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EEE428E28E36F4A0047B01D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0EEE429528E36F4A0047B01D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					0EEE42A528E36F4D0047B01D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 0EEE429528E36F4A0047B01D;
+					};
+					0EEE42AF28E36F4E0047B01D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 0EEE429528E36F4A0047B01D;
+					};
+				};
+			};
+			buildConfigurationList = 0EEE429128E36F4A0047B01D /* Build configuration list for PBXProject "Blizzard-SwiftUI-UI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EEE428D28E36F4A0047B01D;
+			productRefGroup = 0EEE429728E36F4A0047B01D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EEE429528E36F4A0047B01D /* Blizzard-SwiftUI-UI */,
+				0EEE42A528E36F4D0047B01D /* Blizzard-SwiftUI-UITests */,
+				0EEE42AF28E36F4E0047B01D /* Blizzard-SwiftUI-UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EEE429428E36F4A0047B01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEE42A128E36F4D0047B01D /* Preview Assets.xcassets in Resources */,
+				0EEE429E28E36F4D0047B01D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE42A428E36F4D0047B01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE42AE28E36F4E0047B01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EEE429228E36F4A0047B01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEE429C28E36F4A0047B01D /* ContentView.swift in Sources */,
+				0EEE429A28E36F4A0047B01D /* Blizzard_SwiftUI_UIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE42A228E36F4D0047B01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEE42AB28E36F4D0047B01D /* Blizzard_SwiftUI_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEE42AC28E36F4E0047B01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEE42B728E36F4E0047B01D /* Blizzard_SwiftUI_UIUITestsLaunchTests.swift in Sources */,
+				0EEE42B528E36F4E0047B01D /* Blizzard_SwiftUI_UIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EEE42A828E36F4D0047B01D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EEE429528E36F4A0047B01D /* Blizzard-SwiftUI-UI */;
+			targetProxy = 0EEE42A728E36F4D0047B01D /* PBXContainerItemProxy */;
+		};
+		0EEE42B228E36F4E0047B01D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EEE429528E36F4A0047B01D /* Blizzard-SwiftUI-UI */;
+			targetProxy = 0EEE42B128E36F4E0047B01D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EEE42B828E36F4E0047B01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EEE42B928E36F4E0047B01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EEE42BB28E36F4E0047B01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blizzard-SwiftUI-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = M4JK4NQ2N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elierayalabernal.Blizzard-SwiftUI-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EEE42BC28E36F4E0047B01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blizzard-SwiftUI-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = M4JK4NQ2N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elierayalabernal.Blizzard-SwiftUI-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EEE42BE28E36F4E0047B01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4JK4NQ2N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elierayalabernal.Blizzard-SwiftUI-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blizzard-SwiftUI-UI.app/Blizzard-SwiftUI-UI";
+			};
+			name = Debug;
+		};
+		0EEE42BF28E36F4E0047B01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4JK4NQ2N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elierayalabernal.Blizzard-SwiftUI-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blizzard-SwiftUI-UI.app/Blizzard-SwiftUI-UI";
+			};
+			name = Release;
+		};
+		0EEE42C128E36F4E0047B01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4JK4NQ2N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elierayalabernal.Blizzard-SwiftUI-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blizzard-SwiftUI-UI";
+			};
+			name = Debug;
+		};
+		0EEE42C228E36F4E0047B01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4JK4NQ2N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elierayalabernal.Blizzard-SwiftUI-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blizzard-SwiftUI-UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EEE429128E36F4A0047B01D /* Build configuration list for PBXProject "Blizzard-SwiftUI-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEE42B828E36F4E0047B01D /* Debug */,
+				0EEE42B928E36F4E0047B01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEE42BA28E36F4E0047B01D /* Build configuration list for PBXNativeTarget "Blizzard-SwiftUI-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEE42BB28E36F4E0047B01D /* Debug */,
+				0EEE42BC28E36F4E0047B01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEE42BD28E36F4E0047B01D /* Build configuration list for PBXNativeTarget "Blizzard-SwiftUI-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEE42BE28E36F4E0047B01D /* Debug */,
+				0EEE42BF28E36F4E0047B01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEE42C028E36F4E0047B01D /* Build configuration list for PBXNativeTarget "Blizzard-SwiftUI-UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEE42C128E36F4E0047B01D /* Debug */,
+				0EEE42C228E36F4E0047B01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EEE428E28E36F4A0047B01D /* Project object */;
+}
