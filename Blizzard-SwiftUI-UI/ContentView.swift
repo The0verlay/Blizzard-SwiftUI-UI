@@ -55,7 +55,6 @@ struct ContentView: View {
             } //MARK: - Section
              .listRowBackground(Color.clear)
         
-            
             Section {
                 button(title: "Block Pirate Repos (Safer)", isOn: $isSelected, value: 0, isStepper: false)
                 button(title: "Disable anti-piracy", isOn: $isSelected, value: 1, isStepper: false)
