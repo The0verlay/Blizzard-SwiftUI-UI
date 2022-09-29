@@ -19,6 +19,7 @@ struct ContentView: View {
     @State private var isSelected: Int = 0
     @State private var isSelectedPackage: Int = 0
     @State private var uninstall: Bool = false
+    
     var body: some View {
         Form {
             Section {
@@ -30,7 +31,8 @@ struct ContentView: View {
                         .frame(width: 230,height: 230, alignment: .center)
                         .scaledToFit()
                         
-                }.frame(maxWidth: .infinity, alignment: .center)
+                } //MARK: - HStack
+                .frame(maxWidth: .infinity, alignment: .center)
                 
                 Text("BLIZZARD JAILBREAK")
                     .font(.system(size: 22, weight: .heavy, design: .rounded))
@@ -47,9 +49,10 @@ struct ContentView: View {
                         .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 15, style: .continuous))
                     
                         
-                }.buttonStyle(PlainButtonStyle())
+                } //MARK: - Button
+                .buttonStyle(PlainButtonStyle())
                    
-            }
+            } //MARK: - Section
              .listRowBackground(Color.clear)
         
             
@@ -59,7 +62,8 @@ struct ContentView: View {
             } header: {
                 Text("SECURITY")
                     .font(.system(size: 12, weight: .heavy, design: .rounded))
-            }.listRowBackground(Color.clear)
+            } //MARK: - Section
+            .listRowBackground(Color.clear)
 
             
             Section {
@@ -82,10 +86,12 @@ struct ContentView: View {
             } header: {
                 Text("PACKAGE MANAGER")
                     .font(.system(size: 12, weight: .heavy, design: .rounded))
-            }.listRowBackground(Color.clear)
+            } //MARK: - Section
+            .listRowBackground(Color.clear)
             
-        }.background(LinearGradient(colors: [Color("topGradientColor"), Color("centerGradientColor"), Color("bottomGradientColor")], startPoint: .topLeading, endPoint: .bottomTrailing))
-    }
+        } //MARK: - Form
+        .background(LinearGradient(colors: [Color("topGradientColor"), Color("centerGradientColor"), Color("bottomGradientColor")], startPoint: .topLeading, endPoint: .bottomTrailing))
+    } //MARK: - Body
     
     @ViewBuilder
     func button(title: String, isOn: Binding<Int>, value: Int, isStepper: Bool) -> some View {
@@ -113,5 +119,5 @@ struct ContentView: View {
             .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 15, style: .continuous))
             
         }.buttonStyle(PlainButtonStyle())
-    }
+    } //MARK: - ViewBuilder
 }
